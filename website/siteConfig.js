@@ -12,7 +12,7 @@ const siteConfig = {
   tagline: 'Routing and navigation for your React Native apps',
   url: process.env.STABLE_RELEASE
     ? 'https://reactnavigation.org'
-    : 'https://v1.react-navigation.org',
+    : 'https://v1.reactnavigation.org',
   baseUrl: '/',
   organizationName: process.env.STABLE_RELEASE
     ? 'react-navigation'
