@@ -41,3 +41,8 @@ export default withNavigation(MyBackButton);
 ```
 
 Using this approach, you can render `MyBackButton` anywhere in your app without passing in a `navigation` prop explicitly and it will work as expected.
+
+###Known Issues
+If you intend on using the navigator within the Header components as part of the stack, you must inject the navigation prop in a different way.
+
+See: https://github.com/react-navigation/react-navigation/issues/3524
